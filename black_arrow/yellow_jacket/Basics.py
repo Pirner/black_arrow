@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import numpy as np
+import mnist
 
 
 class Neuron(object):
@@ -16,6 +17,7 @@ class Neuron(object):
         z = np.dot(x, self.W) + self.b
         return self.activation_fn(z)
 
+
 class FullyConnectedLayer(object):
     def __init__(self, num_inputs, layer_size, activation_fn):
         self.W = np.random.standard_normal((num_inputs, layer_size))
@@ -26,6 +28,10 @@ class FullyConnectedLayer(object):
     def forward(self, x):
         z = np.dot(x, self.W) + self.b
         return self.activation_fn(z)
+
+
+def sigmoid(value):
+    return 1 / (1 + np.exp(-value))
 
 
 np.random.seed(42)
@@ -49,4 +55,18 @@ out1 = layer.forward(x1)
 print(out1)
 out2 = layer.forward(x2)
 print(out2)
+
+num_classes = 10
+X_train, y_train = mnist.train_images(), mnist.train_labels()
+X_test, y_test = mnist.test_images(), mnist.test_labels()
+
+
+X_train, X_test = X_train.reshape(-1, 28*28), X_test.reshape(-1, 28*28)
+y_train = np.eye(num_classes)[y_train]
+
+
+class SimpleNetwork(object):
+
+    def __init__(self, num_inputs, num_outputs, hidden_layers):
+        return
 
