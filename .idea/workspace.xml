@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa12bf6-4b13-46d7-ab47-45ca0d316d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/black_arrow/yellow_jacket/Basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/black_arrow/yellow_jacket/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/black_arrow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/black_arrow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/black_arrow/black_arrow/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_arrow/black_arrow/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,22 +23,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="43" />
-    <option name="y" value="25" />
-    <option name="width" value="1877" />
-    <option name="height" value="1055" />
-  </component>
   <component name="ProjectId" id="1YWhVub1v5Y7WDLxsQJGTPyAlPG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -82,6 +76,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="218" key="#Inspections" timestamp="1583069567616">
       <screen x="0" y="40" width="1920" height="1040" />
@@ -119,10 +124,11 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1899" height="328" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1583069520413" />
-    <state x="461" y="202" key="SettingsEditor" timestamp="1583069293864">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state x="516" y="191" width="1022" height="737" key="SettingsEditor" timestamp="1590760644282">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="461" y="202" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1583069293864" />
+    <state x="516" y="191" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1590760644282" />
     <state x="636" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1583075846447">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
