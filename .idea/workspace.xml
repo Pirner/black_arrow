@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa12bf6-4b13-46d7-ab47-45ca0d316d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/black_arrow/yellow_jacket/Basic_NN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/black_arrow/yellow_jacket/tf_intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_arrow/yellow_jacket/Basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/black_arrow/yellow_jacket/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/black_arrow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/black_arrow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
@@ -30,8 +33,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/TUM/Master/1FS" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.manage">
     <configuration name="Basic_NN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -183,18 +186,12 @@
     <state width="1899" height="328" key="GridCell.Tab.1.left" timestamp="1584745640220">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="328" key="GridCell.Tab.1.left/0.40.1920.1040@0.40.1920.1040" timestamp="1584745640220" />
-    <state width="1899" height="328" key="GridCell.Tab.1.right" timestamp="1584745640220">
+    <state width="1899" height="328" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1583069520413" />
+    <state x="461" y="202" key="SettingsEditor" timestamp="1583069293864">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1899" height="328" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1584745640220" />
-    <state x="2381" y="202" key="SettingsEditor" timestamp="1586204688131">
-      <screen x="1920" y="40" width="1920" height="1040" />
-    </state>
-    <state x="2381" y="202" key="SettingsEditor/-1920.40.1920.1040/1920.40.1920.1040/0.40.1920.1040@1920.40.1920.1040" timestamp="1586204688131" />
-    <state x="461" y="202" key="SettingsEditor/-1920.41.1920.1040/1920.-11.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1584187623243" />
-    <state x="461" y="202" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1583442355078" />
-    <state x="552" y="293" key="Vcs.Push.Dialog.v2" timestamp="1583444034602">
+    <state x="461" y="202" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1583069293864" />
+    <state x="636" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1583075846447">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="552" y="293" key="Vcs.Push.Dialog.v2/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1583426959248" />
