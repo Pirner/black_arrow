@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa12bf6-4b13-46d7-ab47-45ca0d316d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/black_arrow/yellow_jacket/Basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/black_arrow/yellow_jacket/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/black_arrow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/black_arrow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
@@ -34,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.manage">
     <configuration name="Basic_NN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -133,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583426955507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="more basics..">
+      <created>1591050177299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591050177299</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,13 +191,11 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state width="1899" height="328" key="GridCell.Tab.1.right/0.40.1920.1040@0.40.1920.1040" timestamp="1583069520413" />
-    <state x="461" y="202" key="SettingsEditor" timestamp="1583069293864">
-      <screen x="0" y="40" width="1920" height="1040" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1591050291298">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591050291298" />
     <state x="461" y="202" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1583069293864" />
-    <state x="636" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1583075846447">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
     <state x="552" y="293" key="Vcs.Push.Dialog.v2/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1583426959248" />
     <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1583444034602" />
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591050102975">
