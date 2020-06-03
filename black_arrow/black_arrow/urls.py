@@ -1,3 +1,6 @@
+from django.urls import include, path
+
+import red_bow
 """black_arrow URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -18,4 +21,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('red_bow/', include('red_bow.urls')),
 ]
