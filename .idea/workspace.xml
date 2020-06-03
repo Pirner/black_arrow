@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa12bf6-4b13-46d7-ab47-45ca0d316d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/black_arrow/red_bow/static/red_bow/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/black_arrow/red_bow/templates/red_bow/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/black_arrow/red_bow/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/black_arrow/black_arrow/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_arrow/black_arrow/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/black_arrow/red_bow/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_arrow/red_bow/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/black_arrow/red_bow/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_arrow/red_bow/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +156,22 @@
       <option name="project" value="LOCAL" />
       <updated>1591050343127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="setup tests">
+      <created>1591222172649</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591222172649</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add yellow_jacket for basic implementation." />
     <MESSAGE value="more basics.." />
     <MESSAGE value="merge and fixup in requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge and fixup in requirements" />
+    <MESSAGE value="setup tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="218" key="#Inspections" timestamp="1583069567616">
@@ -179,11 +182,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591051142373" />
-    <state x="612" y="33" key="CommitChangelistDialog2" timestamp="1591050342362">
+    <state x="612" y="33" key="CommitChangelistDialog2" timestamp="1591222379797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="73" key="CommitChangelistDialog2/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1583426954793" />
-    <state x="612" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591050342362" />
+    <state x="612" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591222379797" />
     <state x="612" y="73" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1583444030268" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591129087948">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -231,11 +234,11 @@
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591129089245" />
     <state x="461" y="202" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1583069293864" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591222163216">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1591222175058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="293" key="Vcs.Push.Dialog.v2/-1920.40.1920.1040/0.40.1920.1040@0.40.1920.1040" timestamp="1583426959248" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591222163216" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591222175058" />
     <state x="552" y="293" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1583444034602" />
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1591222143948">
       <screen x="0" y="0" width="1920" height="1040" />
