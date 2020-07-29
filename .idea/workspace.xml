@@ -33,10 +33,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2aa12bf6-4b13-46d7-ab47-45ca0d316d56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sentdex_machine_learning/regression_introduction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/black_arrow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/black_arrow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/black_arrow/red_bow/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_arrow/red_bow/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/dev/repos/ImageProcessing/AssureTrainer" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,7 +73,7 @@
       <recent name="C:\Users\stephan.pirner\PycharmProjects\black_arrow\black_arrow\red_bow\templates\red_bow" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.views">
+  <component name="RunManager" selected="Python.regression_introduction">
     <configuration name="Basic_NN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="black_arrow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,27 +87,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/black_arrow/yellow_jacket/Basic_NN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="black_arrow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/black_arrow/yellow_jacket" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/black_arrow/yellow_jacket/Basics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,6 +137,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="regression_introduction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="black_arrow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentdex_machine_learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentdex_machine_learning/regression_introduction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="black_arrow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,18 +181,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Basic_NN" />
-      <item itemvalue="Python.Basics" />
       <item itemvalue="Python.basic_cnn" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.views" />
+      <item itemvalue="Python.regression_introduction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.regression_introduction" />
         <item itemvalue="Python.views" />
         <item itemvalue="Python.basic_cnn" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.Basic_NN" />
-        <item itemvalue="Python.Basics" />
       </list>
     </recent_temporary>
   </component>
@@ -282,35 +282,43 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591051142373" />
-    <state x="612" y="33" key="CommitChangelistDialog2" timestamp="1591543534530">
+    <state x="612" y="33" key="CommitChangelistDialog2" timestamp="1595717629126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591543534530" />
+    <state x="612" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595717629126" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592645408201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592645408201" />
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/1920.40.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589386937973" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591129087948" />
-    <state width="1899" height="263" key="GridCell.Tab.0.bottom" timestamp="1591603340284">
+    <state width="1899" height="256" key="GridCell.Tab.0.bottom" timestamp="1596040421901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591603340284" />
+    <state width="1899" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595970209471" />
+    <state width="1899" height="256" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040421901" />
+    <state width="1899" height="259" key="GridCell.Tab.0.bottom/3840.0.2560.1040/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1595847494874" />
     <state width="1825" height="266" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1591388348200" />
-    <state width="1899" height="263" key="GridCell.Tab.0.center" timestamp="1591603340283">
+    <state width="1899" height="256" key="GridCell.Tab.0.center" timestamp="1596040421901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591603340283" />
+    <state width="1899" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595970209471" />
+    <state width="1899" height="256" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040421901" />
+    <state width="1899" height="259" key="GridCell.Tab.0.center/3840.0.2560.1040/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1595847494874" />
     <state width="1825" height="266" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1591388348200" />
-    <state width="1899" height="263" key="GridCell.Tab.0.left" timestamp="1591603340283">
+    <state width="1899" height="256" key="GridCell.Tab.0.left" timestamp="1596040421900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591603340283" />
+    <state width="1899" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595970209471" />
+    <state width="1899" height="256" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040421900" />
+    <state width="1899" height="259" key="GridCell.Tab.0.left/3840.0.2560.1040/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1595847494874" />
     <state width="1825" height="266" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1591388348200" />
-    <state width="1899" height="263" key="GridCell.Tab.0.right" timestamp="1591603340283">
+    <state width="1899" height="256" key="GridCell.Tab.0.right" timestamp="1596040421901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591603340283" />
+    <state width="1899" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595970209471" />
+    <state width="1899" height="256" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040421901" />
+    <state width="1899" height="259" key="GridCell.Tab.0.right/3840.0.2560.1040/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1595847494874" />
     <state width="1825" height="266" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1591388348200" />
     <state width="1899" height="328" key="GridCell.Tab.1.bottom" timestamp="1591347197821">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -328,22 +336,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591347197821" />
-    <state x="461" y="162" width="1023" height="737" key="SettingsEditor" timestamp="1592645388314">
+    <state x="461" y="162" width="1023" height="737" key="SettingsEditor" timestamp="1596040220853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592645388314" />
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591603216717" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595790312250" />
+    <state x="461" y="162" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040220853" />
     <state x="516" y="191" width="1023" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1591388385692" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595717618626">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596040443425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595717618626" />
-    <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595717603351">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595717631836" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040443425" />
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1596038506782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592645297664" />
     <state x="2556" y="384" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.40.1920.1040/0.0.1920.1040@1920.40.1920.1040" timestamp="1589386909256" />
-    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595717603351" />
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595969543331" />
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596038506782" />
+    <state x="314" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595790397665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="314" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595790397665" />
     <state x="693" y="307" key="git4idea.merge.GitPullDialog" timestamp="1591965172104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

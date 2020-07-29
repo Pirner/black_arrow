@@ -1,3 +1,5 @@
+Quandl
+pandas
 scikit-image
 tensorflow
 numpy==1.18.1
