@@ -33,11 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2aa12bf6-4b13-46d7-ab47-45ca0d316d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentdex_machine_learning/regression_introduction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/black_arrow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/black_arrow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentdex_machine_learning/linear_regression_breakdown.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,8 +180,8 @@
       <item itemvalue="Python.Basic_NN" />
       <item itemvalue="Python.basic_cnn" />
       <item itemvalue="Python.manage" />
-      <item itemvalue="Python.views" />
       <item itemvalue="Python.regression_introduction" />
+      <item itemvalue="Python.views" />
     </list>
     <recent_temporary>
       <list>
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591543535436</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="setup LinearRegression - testing sklearn">
+      <created>1596040459368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596040459368</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +275,8 @@
     <MESSAGE value="merge and fixup in requirements" />
     <MESSAGE value="setup tests" />
     <MESSAGE value="setup dataloder" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup dataloder" />
+    <MESSAGE value="setup LinearRegression - testing sklearn" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup LinearRegression - testing sklearn" />
   </component>
   <component name="WindowStateProjectService">
     <state x="863" y="392" width="256" height="330" key="#Notifications" timestamp="1591465125555">
@@ -282,10 +287,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591051142373" />
-    <state x="612" y="33" key="CommitChangelistDialog2" timestamp="1595717629126">
+    <state x="612" y="33" key="CommitChangelistDialog2" timestamp="1596040458507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="612" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595717629126" />
+    <state x="612" y="33" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040458507" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592645408201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,14 +349,15 @@
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595790312250" />
     <state x="461" y="162" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040220853" />
     <state x="516" y="191" width="1023" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1591388385692" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596040443425">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596040462255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595717631836" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040443425" />
-    <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1596038506782">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040462255" />
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1596363558276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596363558276" />
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592645297664" />
     <state x="2556" y="384" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.40.1920.1040/0.0.1920.1040@1920.40.1920.1040" timestamp="1589386909256" />
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595969543331" />
