@@ -33,7 +33,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2aa12bf6-4b13-46d7-ab47-45ca0d316d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sentdex_machine_learning/linear_regression_breakdown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentdex_machine_learning/breast-cancer-wisconsin.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentdex_machine_learning/breast-cancer-wisconsin.names" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentdex_machine_learning/k_nearest_neighbors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/dev/repos/ImageProcessing/AssureTrainer" />
+    <property name="last_opened_file_path" value="C:/dev/repos_cleaned/Optical-Control/ImageProcessing/AssureTrainer" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -287,17 +289,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591051142373" />
-    <state x="612" y="33" key="CommitChangelistDialog2" timestamp="1596040458507">
+    <state x="612" y="33" key="CommitChangelistDialog2" timestamp="1596363564913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="612" y="33" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596363564913" />
     <state x="612" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595717629126" />
     <state x="612" y="33" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040458507" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592645408201">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596441529757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592645408201" />
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/1920.40.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589386937973" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591129087948" />
+    <state x="740" y="275" key="FileChooserDialogImpl/3840.0.2560.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596441529757" />
     <state width="1899" height="256" key="GridCell.Tab.0.bottom" timestamp="1596040421901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -349,28 +353,30 @@
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595790312250" />
     <state x="461" y="162" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040220853" />
     <state x="516" y="191" width="1023" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1591388385692" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596040462255">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596363567890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596363567890" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595717631836" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596040462255" />
-    <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1596363558276">
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1596657158209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596363558276" />
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592645297664" />
     <state x="2556" y="384" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.40.1920.1040/0.0.1920.1040@1920.40.1920.1040" timestamp="1589386909256" />
-    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595969543331" />
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596657158209" />
     <state x="636" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596038506782" />
+    <state x="636" y="344" key="com.intellij.ide.util.TipDialog/3840.0.2560.1040/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1596441457225" />
     <state x="314" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595790397665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="314" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595790397665" />
-    <state x="693" y="307" key="git4idea.merge.GitPullDialog" timestamp="1591965172104">
+    <state x="693" y="307" key="git4idea.merge.GitPullDialog" timestamp="1596567130417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="693" y="307" key="git4idea.merge.GitPullDialog/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1591552264461" />
-    <state x="693" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591965172104" />
+    <state x="693" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596567130417" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591186527442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
